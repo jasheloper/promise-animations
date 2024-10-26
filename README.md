@@ -8,7 +8,7 @@ Update a page to play a series of animations in a sequence using promise-based t
 
 ## Notes
 
-The project required to implement promise based code 3 different ways:
+The challenge required implementation of promise based code 3 different ways:
 
 <br>
 
