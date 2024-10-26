@@ -57,7 +57,15 @@ function secondAlice() {
 function thirdAlice() {
   return alice3.animate(aliceTumbling, aliceTiming);
 }
+```
 
+**Additional Instructions from project:** <br><br>
+*Note that there are a few different ways you can write this, because of the different forms you can use for an arrow function. Try some different forms. Which is the most concise? Which do you find the most readable?*
+
+<br>
+
+**Using arrow function with explicit return statmement and curly braces for the function body.**
+```
 firstAlice().finished
   .then( () => {
     return secondAlice().finished;
@@ -66,6 +74,33 @@ firstAlice().finished
     return thirdAlice().finished;
   })
 ```
+
+<br>
+
+**Using arrow function with implicit returns - curly braces and 'return' keyword are omitted.**
+
+⭐️ (favorite)
+
+```
+firstAlice().finished 
+  .then( () => secondAlice().finished)
+  .then( () => thirdAlice().finished);
+```
+
+<br>
+
+**Traditional function syntax instead of arrow functions, with explicit return statements.**
+
+```
+firstAlice().finished
+  .then( function () {
+    return secondAlice().finished
+  })
+  .then ( function () {
+    return thirdAlice().finished
+  })
+```
+
 
 <br>
 
