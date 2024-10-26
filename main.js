@@ -58,9 +58,6 @@ firstAlice().finished
 */
 
 
-
-
-
 /*
 Arrow function with explicit return statmement and curly braces for the function body.
 
@@ -73,7 +70,6 @@ firstAlice().finished
   })
     */
   
-    
 
 
 /*
@@ -89,7 +85,6 @@ function allAlice() {
 
 allAlice();
 */
-
 
 
 /*
