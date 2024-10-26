@@ -45,6 +45,28 @@ allAlice();
 
 ### Version 2: Promise Chain
 
+```
+function firstAlice() {
+  return alice1.animate(aliceTumbling, aliceTiming);
+}
+
+function secondAlice() {
+  return alice2.animate(aliceTumbling, aliceTiming);
+}
+
+function thirdAlice() {
+  return alice3.animate(aliceTumbling, aliceTiming);
+}
+
+firstAlice().finished
+  .then( () => {
+    return secondAlice().finished;
+  })
+  .then( () => {
+    return thirdAlice().finished;
+  })
+```
+
 <br>
 
 ### Version 3: async and await

@@ -13,6 +13,7 @@ const alice1 = document.querySelector("#alice1");
 const alice2 = document.querySelector("#alice2");
 const alice3 = document.querySelector("#alice3");
 
+
 function firstAlice() {
   return alice1.animate(aliceTumbling, aliceTiming);
 }
@@ -25,7 +26,15 @@ function thirdAlice() {
   return alice3.animate(aliceTumbling, aliceTiming);
 }
 
+firstAlice().finished
+  .then( () => {
+    return secondAlice().finished;
+  })
+  .then( () => {
+    return thirdAlice().finished;
+  })
 
+/*
 function allAlice() {
   firstAlice().finished.then( () => {
     secondAlice().finished.then( () => {
@@ -35,6 +44,7 @@ function allAlice() {
 }
 
 allAlice();
+*/
 
 
 
