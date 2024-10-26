@@ -4,6 +4,8 @@ To test understanding of how to use promise-based APIs.
 
 Update a page to play a series of animations in a sequence using promise-based techniques.
 
+https://jasheloper.github.io/promise-animations/
+
 <br>
 
 ## Notes
