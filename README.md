@@ -74,7 +74,7 @@ firstAlice().finished
 
 <br>
 
-### Version 3: async and await 🛑
+### Version 3: async and await 👣
 
 ```
 async function goAlice() {
