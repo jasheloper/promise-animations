@@ -34,7 +34,7 @@ function allAlice() {
 
 <br>
 
-**Using arrow function with explicit return statmement and curly braces for the function body.**
+**Arrow function with explicit return statmement and curly braces for the function body.**
 ```
 firstAlice().finished
   .then( () => {
@@ -47,7 +47,7 @@ firstAlice().finished
 
 <br>
 
-**Using arrow function with implicit returns - curly braces and 'return' keyword are omitted.**
+**Arrow function with implicit returns - curly braces and 'return' keyword are omitted.**
 
 ⭐️ (favorite)
 
