@@ -13,16 +13,6 @@ const alice1 = document.querySelector("#alice1");
 const alice2 = document.querySelector("#alice2");
 const alice3 = document.querySelector("#alice3");
 
-/*
-console.log(alice1.animate(aliceTumbling, aliceTiming));
-console.log(alice1.animate(aliceTumbling, aliceTiming).finished);
-
-alice1.animate(aliceTumbling, aliceTiming).finished.then( () => {
-  console.log("finished!");
-});
-*/
-
-
 function firstAlice() {
   return alice1.animate(aliceTumbling, aliceTiming);
 }
@@ -45,3 +35,14 @@ function allAlice() {
 }
 
 allAlice();
+
+
+
+/*
+console.log(alice1.animate(aliceTumbling, aliceTiming));
+console.log(alice1.animate(aliceTumbling, aliceTiming).finished);
+
+alice1.animate(aliceTumbling, aliceTiming).finished.then( () => {
+  console.log("finished!");
+});
+*/
