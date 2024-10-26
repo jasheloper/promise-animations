@@ -14,7 +14,7 @@ The challenge required implementation of promise based code 3 different ways:
 
 <br>
 
-### Version 1: Callback Hell
+### Version 1: Callback Hell 🔥
 
 ```
 function firstAlice() {
@@ -43,7 +43,7 @@ allAlice();
 
 <br>
 
-### Version 2: Promise Chain
+### Version 2: Promise Chain ⛓️
 
 ```
 function firstAlice() {
@@ -69,7 +69,7 @@ firstAlice().finished
 
 <br>
 
-### Version 3: async and await
+### Version 3: async and await 🛑
 
 ```
 comin' soon
